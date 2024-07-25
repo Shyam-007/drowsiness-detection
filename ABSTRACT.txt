@@ -1,0 +1,11 @@
+ABSTRACT
+TOPIC: DROWSINESS DETECTION
+
+The system is basically developed to detect drivers dozing at the wheel at night time driving and long travel. 
+The system uses a small infra-red night vision camera that points directly towards the driver‘s face and monitors the driver‘s eyes in order to detect fatigue. 
+In such a case when fatigue is detected, a warning signal is issued to alert the driver.
+This paper discusses the algorithms that have been used to detect drowsiness. 
+The decision whether the driver is dozing or not is taken depending on whether 
+the eyes are open for a specific number of frames.
+If the eyes are found to be closed for a certain number of consecutive frames,
+then the driver is alerted with an alarm.
